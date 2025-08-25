@@ -89,7 +89,7 @@
         <div>
           <h1 class="text-[#080808B2] font-semibold">Select A Bank</h1>
           <select id="bank" class="select  mt-3 bg-[#F4F5F7] text-[#080808B2] w-full rounded-3xl">
-            <option >Select back</option>
+            <option >Select bank</option>
             <option>AB Bank</option>
             <option>Islami Bank</option>
             <option>Dhaka Bank</option>
@@ -166,6 +166,38 @@
             <input id="" type="text" placeholder="Enter your coupon" class="input mt-3 bg-[#F4F5F7] rounded-3xl border-none w-full" />
         </div>
         <button type="button" class="btn bg-[#0874F2] w-full rounded-3xl mt-5 text-white" id="">Send Now</button>
+      </form>
+    </div>
+
+    <!-- Pay Bill  -->
+
+    <div id="paybill-section" >
+      <h1 class="mt-8 mb-4 font-bold">Pay Bill</h1>
+      <form action="" class="bg-white rounded-2xl p-6">
+        <div>
+          <h1 class="text-[#080808B2] font-semibold">Select To Pay</h1>
+          <select id="customer-bank" class="select  mt-3 bg-[#F4F5F7] text-[#080808B2] w-full rounded-3xl">
+            <option >Select bank</option>
+            <option>AB Bank</option>
+            <option>Islami Bank</option>
+            <option>Dhaka Bank</option>
+            <option>IFIC Bank</option>
+            <option>CITY Bank</option>
+          </select>
+        </div>
+        <div class="mt-3">
+            <label for="" class="font-semibold text-[#080808B2] ">Biller Account Number</label><br>
+            <input id="Biller-Ac-num" type="text" placeholder="Enter account number" class="input mt-3 bg-[#F4F5F7] rounded-3xl border-none w-full" />
+        </div>
+        <div class="mt-3">
+            <label for="" class="font-semibold text-[#080808B2] ">Amount to Pay</label><br>
+            <input id="pay-amount" type="text" placeholder="Add Amount to pay" class="input mt-3 bg-[#F4F5F7] rounded-3xl border-none w-full" />
+        </div>
+        <div class="mt-5">
+            <label for="" class="font-semibold text-[#080808B2]">Pin Number</label><br>
+            <input id="biller-pin" type="text" placeholder="Enter 4 digit pin number" class="input mt-3 bg-[#F4F5F7] rounded-3xl border-none w-full" />
+        </div>
+        <button type="button" class="btn bg-[#0874F2] w-full rounded-3xl mt-5 text-white" id="pay-money-btn">Pay Now</button>
       </form>
     </div>
 
